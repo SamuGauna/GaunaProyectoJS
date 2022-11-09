@@ -1,16 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAVASCRIPT - GAUNA</title>
-    <link rel="stylesheet" href="./css/flow.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Toda la discografia y toda la info sobre sus disco" />
+    <meta name="keywords" content="Discografia, Eminem, Slim Shady, Marshall Mathers, Em, Rap, Hip Hop, Rapero blanco" />
+    <title>Eminem - Discografía</title>
+    <!-- ICON -->
+    <link rel="shortcut icon" href="../assets/img/ICON.ico" />
+    <!-- LINK JS, BOOTS Y CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/flow.css" />
+    <!-- BACKGROUND PATTERN -->
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
 </head>
-<body>
-    <form>
-        <button class="button" onclick="correr();">correr algoritmo</button>
-    </form>
+
+<body class="pattern-triangles-sm">
+    <nav class="navbar navbar-expand-lg bg-light navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img class="imgLogoIzq" src="../assets/img/izquierda-_3_.svg" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse div_nav" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="bio.html">Bio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="opinion.html">Opinión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="discografia.html">Discografia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="galeria.html">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <h1>Discografia</h1>
+        </div>
+        <!-- 3 CONTENEDORES, TODO CON FLEX -->
+        <section class="containerdiscos1">
+            <div class="eminemshow">
+                <a href="https://es.wikipedia.org/wiki/The_Eminem_Show" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/eminemshow.jpg" alt="tapa disco eminemshow" />
+                </a>
+            </div>
+            <div class="infinite">
+                <a href="https://es.wikipedia.org/wiki/Infinite_(%C3%A1lbum_de_Eminem)" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/infinite.jpg" alt="tapa disco infinite" />
+                </a>
+            </div>
+            <div class="mmlp">
+                <a href="https://es.wikipedia.org/wiki/The_Marshall_Mathers_LP" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/mmlp.jpg" alt="tapa disco mmlp" />
+                </a>
+            </div>
+
+        </section>
+        <section class="containerdiscos2">
+            <div class="slimshadylp">
+                <a href="https://es.wikipedia.org/wiki/ The_Slim_Shady_LP" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/slimshadylp.jpg" alt="tapa disco slim shady"/>
+                </a>
+            </div>
+            <div class="encore">
+                <a href="https://es.wikipedia.org/wiki/Encore_(%C3%A1lbum_de_Eminem)" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/encore.jpg" alt="tapa disco encore">
+                </a>
+            </div>
+            <div class="relapse">
+                <a href="https://es.wikipedia.org/wiki/Relapse" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/relapse.jpg" alt="tapa disco relapse"/>
+                </a>
+            </div>
+
+        </section>
+        <section class="containerdiscos3">
+            <div class="mmlp2">
+                <a href="https://es.wikipedia.org/wiki/The_Marshall_Mathers_LP_2" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/mmlp2.jpg" alt="tapa disco mmlp2"/>
+                </a>
+            </div>
+            <div class="revival">
+                <a href="https://es.wikipedia.org/wiki/Revival_(%C3%A1lbum_de_Eminem)" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/revival.jpg" alt="tapa disco revival"/>
+                </a>
+            </div>
+            <div class="kamikaze">
+                <a href="https://es.wikipedia.org/wiki/Kamikaze_(%C3%A1lbum_de_Eminem)" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/kamikaze.jpg" alt="tapa disco kamikaze"/>
+                </a>
+            </div>
+        </section>
+        <section class="containerdiscos4">
+            <div class="murdered">
+                <a href="https://en.wikipedia.org/wiki/Music_to_Be_Murdered_By" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/murdered.jpg" alt="tapa disco murdered"/>
+                </a>
+            </div>
+            <div class="recovery">
+                <a href="https://es.wikipedia.org/wiki/Recovery_(%C3%A1lbum_de_Eminem)" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/recovery.JPG" alt="tapa disco recovery"/>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container1">
+            <div class="footer__container1-title">
+                <h6>| Seguime en mis redes sociales |</h6>
+            </div>
+            <div class="footer__container1-redes">
+                <a href="https://github.com/SamuGauna" class="rs rs-github" target="_blank"><i
+                        class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/carlos-samuel-gauna-757543239/" class="rs rs-linkedin"
+                    target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://twitter.com/samu12gauna" class="rs rs-tw" target="_blank"><i
+                        class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+        <div class="foooter__container2">
+            <small>&copy; | Aportes de un fan, sitio web sin fines de lucro | </small>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
