@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="./css/flow.css" />
     <!-- BACKGROUND PATTERN -->
     <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap" rel="stylesheet"/>
+
 </head>
 
 <body class="pattern-triangles-sm">
@@ -28,44 +33,44 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse div_nav" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="bio.html">Bio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="opinion.html">Opinión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="discografia.html">Discografia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="galeria.html">Galeria</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </nav>
     <main>
-        <div>
+        <div id="div1">
             <h1>Discografia</h1>
         </div>
         <!-- 3 CONTENEDORES, TODO CON FLEX -->
+        
         <section class="containerdiscos1">
             <div class="eminemshow">
                 <a href="https://es.wikipedia.org/wiki/The_Eminem_Show" target="blank">
                     <img class="disco__img" src="../assets/img/discografias/eminemshow.jpg" alt="tapa disco eminemshow" />
                 </a>
+                <div class="discoDescription">
+                    <p>The Eminem Show</p>
+                    <p>Valor CD $100</p>
+                    <button class="disco-agregar" id="disco1">Agregar al carrito</button>
+                </div>
             </div>
-            <div class="infinite">
-                <a href="https://es.wikipedia.org/wiki/Infinite_(%C3%A1lbum_de_Eminem)" target="blank">
-                    <img class="disco__img" src="../assets/img/discografias/infinite.jpg" alt="tapa disco infinite" />
+            <div class="kamikaze">
+                <a href="https://es.wikipedia.org/wiki/Kamikaze_(%C3%A1lbum_de_Eminem)" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/kamikaze.jpg" alt="tapa disco kamikaze"/>
                 </a>
+                <div class="discoDescription">
+                    <p>Kamikaze</p>
+                    <p>Valor CD $150</p>
+                    <button class="disco-agregar" id="disco2">Agregar al carrito</button>
+                </div>
             </div>
             <div class="mmlp">
                 <a href="https://es.wikipedia.org/wiki/The_Marshall_Mathers_LP" target="blank">
                     <img class="disco__img" src="../assets/img/discografias/mmlp.jpg" alt="tapa disco mmlp" />
                 </a>
+                <div class="discoDescription">
+                    <p>MMLP</p>
+                    <p>Valor CD $200</p>
+                    <button class="disco-agregar" id="disco3">agregar al carrito</button>
+                </div>
             </div>
 
         </section>
@@ -74,48 +79,35 @@
                 <a href="https://es.wikipedia.org/wiki/ The_Slim_Shady_LP" target="blank">
                     <img class="disco__img" src="../assets/img/discografias/slimshadylp.jpg" alt="tapa disco slim shady"/>
                 </a>
+                <div class="discoDescription">
+                    <p>Slim Shady LP</p>
+                    <p>Valor CD $250</p>
+                    <button class="disco-agregar" id="disco4">Agregar al carrito</button>
+                </div>
             </div>
-            <div class="encore">
-                <a href="https://es.wikipedia.org/wiki/Encore_(%C3%A1lbum_de_Eminem)" target="blank">
-                    <img class="disco__img" src="../assets/img/discografias/encore.jpg" alt="tapa disco encore">
+            <div class="mmlp2">
+                <a href="https://es.wikipedia.org/wiki/The_Marshall_Mathers_LP_2" target="blank">
+                    <img class="disco__img" src="../assets/img/discografias/mmlp2.jpg" alt="tapa disco mmlp2"/>
                 </a>
+                <div class="discoDescription">
+                    <p>MMLP 2</p>
+                    <p>Valor CD $300</p>
+                    <button class="disco-agregar" id="disco5">Agregar al carrito</button>
+                </div>
             </div>
             <div class="relapse">
                 <a href="https://es.wikipedia.org/wiki/Relapse" target="blank">
                     <img class="disco__img" src="../assets/img/discografias/relapse.jpg" alt="tapa disco relapse"/>
                 </a>
-            </div>
-
-        </section>
-        <section class="containerdiscos3">
-            <div class="mmlp2">
-                <a href="https://es.wikipedia.org/wiki/The_Marshall_Mathers_LP_2" target="blank">
-                    <img class="disco__img" src="../assets/img/discografias/mmlp2.jpg" alt="tapa disco mmlp2"/>
-                </a>
-            </div>
-            <div class="revival">
-                <a href="https://es.wikipedia.org/wiki/Revival_(%C3%A1lbum_de_Eminem)" target="blank">
-                    <img class="disco__img" src="../assets/img/discografias/revival.jpg" alt="tapa disco revival"/>
-                </a>
-            </div>
-            <div class="kamikaze">
-                <a href="https://es.wikipedia.org/wiki/Kamikaze_(%C3%A1lbum_de_Eminem)" target="blank">
-                    <img class="disco__img" src="../assets/img/discografias/kamikaze.jpg" alt="tapa disco kamikaze"/>
-                </a>
+                <div class="discoDescription">
+                    <p>Relapse</p>
+                    <p>Valor CD $300</p>
+                    <button class="disco-agregar" id="disco6">Agregar al carrito</button>
+                </div>
             </div>
         </section>
-        <section class="containerdiscos4">
-            <div class="murdered">
-                <a href="https://en.wikipedia.org/wiki/Music_to_Be_Murdered_By" target="blank">
-                    <img class="disco__img" src="../assets/img/discografias/murdered.jpg" alt="tapa disco murdered"/>
-                </a>
-            </div>
-            <div class="recovery">
-                <a href="https://es.wikipedia.org/wiki/Recovery_(%C3%A1lbum_de_Eminem)" target="blank">
-                    <img class="disco__img" src="../assets/img/discografias/recovery.JPG" alt="tapa disco recovery"/>
-                </a>
-            </div>
-        </section>
+        <div id="tabla"></div>
+        <div id="botones"></div>
     </main>
     <footer class="footer">
         <div class="footer__container1">
